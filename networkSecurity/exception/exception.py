@@ -16,7 +16,7 @@ class NetworkSecurityException(Exception):
 
 if __name__ == "__main__":
     try:
-        logger.loggig.info("Starting the Network Security Exception module")
+        logger.logging.info("Starting the Network Security Exception module")
         a= 1/0
         print("This will not be printed", a)
     except Exception as e:
